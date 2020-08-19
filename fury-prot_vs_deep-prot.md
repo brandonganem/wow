@@ -158,5 +158,35 @@ Deep Prot: +5% shield block chance                                  Fury Prot: +
            +5% Parry chance                                                    +2% Parry chance (beatus) +0% (me, because I'm an asshole who takes piercing howl)
            + 10 defense skill (0.4% dodge, 0.4% parry, 0.4% block
            
-As we can see here, there are some slight advantages from a mitgation standpoint to being Deep Prot.  2-4% armor contribution from items, 3-5% increased parry chance, and the 1.2% mitigation chance from the defense skill.  That is significant in some situations, without a doubt.  However, when you compare these bonuses to the dodge, parry, block you get from itemization, it seems to be a much smaller piece of the puzzle, in my mind at least.  5 talent points in Anticipation is worth less than the +defense skill on Wrath Helm alone.  3 talent points is worth less than 1 ZG enchant.  
+As we can see here, there are some slight advantages from a mitgation standpoint to being Deep Prot.  
+ - 2-4% armor contribution from items
+ - 3-5% increased parry chance
+ - 1.2% mitigation chance from the defense skill.  
+ That is significant in some situations, without a doubt.  However, when you compare these bonuses to the dodge, parry, block you get from itemization, it seems to be a much smaller piece of the puzzle, in my mind at least.  5 talent points in Anticipation is worth less than the +defense skill on Wrath Helm alone.  3 talent points is worth less than 1 ZG enchant.
+ 
+ Finally, I want to talk about enconomy of itemization, and by that I mean how do we get as much bang for our buck as possible when choosing priority stats.  As we've proved above, if we want to increase the threat output from our shield slams, we need to get more shield block value and we need more strength.  Even for our fury boys, strength is important - it increases raw damage output.  It however has very little defensive utility.  
+ 
+ Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking (mobs attack damage - your shield block value modulated by items).
+ 
+ *TL;DR - For those who just want the cliffs notes, not the entire deep dive*
+ Threat Output
+ - Even with the best circumstances (tested above on Twin Emps, the most friendly Deep Prot fight yet), Deep Prot fails to generate as much threat as Fury Prot.  
+ - This even includes the rage efficency talents that make Deep Prot seem more intuitively viable, but amount to only 2.83 rage per second
+ - Fury Prot has room to continue to improve with itemization, while Deep Prot is reletively static in TPS output unless you're stacking STR like a madman, which means ignoring other great mitigation stats
+ - Fury Prot TPS output is more a function of DPS, meaning when Fury Prot tanks are DPSing, they are DPSing harder than than Deep Prot, making them more useful for single mob encounters, and tightening kill times.  
+ 
+ Mitigation
+ - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more
+ - Overall, Deep Prot can be expected to take advantage of 10 Defense points, 3-5% Parry depending on talent build, and 2-4% armor contribution from items
+ - In both cases, the grand majority of mitigation comes from itemization and gear loadouts combined with consumables, which are available to both specs
+ - There may be a benefit to the healers for having this extra mitigation, but it may not be outweighed by the faster kill times from having higher DPS tanks (though this is just bullshitting, and has no concrete evidence either way)
+ 
+ Flexibility
+ - Fury Prot makes a much better DPS OT spec.  They do soooo much more damage than deep prot (see above)
+ - Deep Prot can stance dance, making it much easier to charge and be more mobile.  Some might argue this is exactly what a bear tank is for, but it's a clear benefit nonetheless.
+ - Fury Prot is limited to having to save bloodrage to cast Intercept.  
+ 
+ I hope this deep dive was useful to someone.  If anything, it allowed Beatus and I to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
+ 
+ 
 
