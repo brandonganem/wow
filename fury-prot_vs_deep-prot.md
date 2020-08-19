@@ -153,10 +153,12 @@ Essentially, Fights like Twin Emps represent the epitome of when a Deep Prot tan
 
 So we talked about threat production, used real world examples that actually favor Deep Prot, and came to a conclusion, putting to bed the notion that Deep Prot outperforms Fury Prot from a threat standpoint.  Next point to cover is Mitigation.  
 
-Deep Prot: +5% shield block chance                                  Fury Prot: +5% shield block chance
-           +10% armor contribution from items                                  +8% armor contribution from items (me)  +6% (beatus)
-           +5% Parry chance                                                    +2% Parry chance (beatus) +0% (me, because I'm an asshole who takes piercing howl)
-           + 10 defense skill (0.4% dodge, 0.4% parry, 0.4% block
+| Modifier | Deep Prot | Fury Prot (threat) | Fury Prot (beatus) |
+| ------------- | -------------- | ----------------- | ---------------- |
+| Block | +5% shield block chance | +5% shield block chance | +5% shield block chance |
+| Armor | +10% armor contribution from items | +8% armor contribution | +6% armor contribution |
+| Parry chance | +5% Parry chance | 0% | +2% |
+| Defense | + 10 defense skill (0.4% dodge, 0.4% parry, 0.4% block) | +0 | +0 |
            
 As we can see here, there are some slight advantages from a mitgation standpoint to being Deep Prot.  
  - 2-4% armor contribution from items
