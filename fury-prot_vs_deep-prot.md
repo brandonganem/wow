@@ -50,7 +50,7 @@ DPS: 312
 DPS: 464
 ![DW Deep Prot](/images/2h_deep_prot.png)
 
-As we can see from the sim, the amount of damage done by Deep prot is considerably lower.  THis surprises noone though, right?  We knew that.  The assumption we are running however is that with all this new threat being built into our deep prot ability (Shield slam, the only ability available soley to deep prot boiz), we rely less on the natural threat generation of damage output.  Now we have previously estabilished that with the exception of swapping shield slam for bloodthirst, the rotations for fury prot and deep prot are exactly the same.  The next logical question any discerning tank-to-be would ask is this: what's the difference in threat generation between a Bloodthirst and a Shield Slam? Buckle up boys, that's where we're going.
+As we can see from the sim, the amount of damage done by Deep prot is considerably lower.  This surprises noone though, right?  We knew that.  The assumption we are running however is that with all this new threat being built into our deep prot ability (Shield slam, the only ability available soley to deep prot boiz), we rely less on the natural threat generation of damage output.  Now we have previously estabilished that with the exception of swapping shield slam for bloodthirst, the rotations for fury prot and deep prot are exactly the same.  The next logical question any discerning tank-to-be would ask is this: what's the difference in threat generation between a Bloodthirst and a Shield Slam? Buckle up boys, that's where we're going.
 
 ## Some real world bloodthirst damage numbers for ThreatDream and Beatus (This is mostly TL;DR'd at bottom, scroll through if you want): 
 
