@@ -170,24 +170,24 @@ As we can see here, there are some slight advantages from a mitgation standpoint
  
  ## *TL;DR - For those who just want the cliffs notes, not the entire deep dive*
  
- # Threat Output
+ ## Threat Output
  - Even with the best circumstances (tested above on Twin Emps, the most friendly Deep Prot fight yet), Deep Prot fails to generate as much threat as Fury Prot.  
  - This even includes the rage efficency talents that make Deep Prot seem more intuitively viable, but amount to only 2.83 rage per second
  - Fury Prot has room to continue to improve with itemization, while Deep Prot is reletively static in TPS output unless you're stacking STR like a madman, which means ignoring other great mitigation stats
  - Fury Prot TPS output is more a function of DPS, meaning when Fury Prot tanks are DPSing, they are DPSing harder than than Deep Prot, making them more useful for single mob encounters, and tightening kill times.  
  
- # Mitigation
+ ## Mitigation
  - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more
  - Overall, Deep Prot can be expected to take advantage of 10 Defense points, 3-5% Parry depending on talent build, and 2-4% armor contribution from items
  - In both cases, the grand majority of mitigation comes from itemization and gear loadouts combined with consumables, which are available to both specs
  - There may be a benefit to the healers for having this extra mitigation, but it may not be outweighed by the faster kill times from having higher DPS tanks (though this is just bullshitting, and has no concrete evidence either way)
  
- # Flexibility
+ ## Flexibility
  - Fury Prot makes a much better DPS OT spec.  They do soooo much more damage than deep prot (see above)
  - Deep Prot can stance dance, making it much easier to charge and be more mobile.  Some might argue this is exactly what a bear tank is for, but it's a clear benefit nonetheless.
  - Fury Prot is limited to having to save bloodrage to cast Intercept.  
  
-# I hope this deep dive was useful to someone.  If anything, it allowed Beatus and I to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
+### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and I to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
  
  
 
