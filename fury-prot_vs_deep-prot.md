@@ -10,7 +10,7 @@ So we had a pretty long conversation last night about fury prot vs deep prot. I 
  
 ## Fury:
 Fury prot has a number of things that generate threat.
- - Flurry - 30% AS for the next 3 swings. This helps both 1h and 2h
+ - Flurry - 30% AS for the next 3 swings. This helps both 1h and DW
  - Enrage - 25% damage for 12s or 12 swings, which ever ends first
  - Deathwish - a "boost my threat" button
  - Bloodthirst - straigh damage with a small heal
@@ -19,9 +19,9 @@ Fury prot has a number of things that generate threat.
 DPS: 543
 ![1h Fury Prot](/images/1h_fury_prot.png)
 
-### 2h
+### DW
 DPS: 778
-![2h Fury Prot](/images/2h_fury_prot.png)
+![DW Fury Prot](/images/2h_fury_prot.png)
 
 ## Deep Prot:
 Deep Prot loses a lot of the tools fury gives. In return, you get 10 defense and shield slam. Shield slam is extremely rage effecient.
@@ -33,9 +33,9 @@ Deep Prot loses a lot of the tools fury gives. In return, you get 10 defense and
 DPS: 312
 ![1h Deep Prot](/images/1h_deep_prot.png)
 
-### 2h
+### DW
 DPS: 464
-![2h Deep Prot](/images/2h_deep_prot.png)
+![DW Deep Prot](/images/2h_deep_prot.png)
 
 ## Some real world bloodthirst damage numbers for ThreatDream and Beatus:
 
