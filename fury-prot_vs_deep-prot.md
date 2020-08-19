@@ -168,7 +168,7 @@ As we can see here, there are some slight advantages from a mitgation standpoint
  
  Finally, I want to talk about enconomy of itemization, and by that I mean how do we get as much bang for our buck as possible when choosing priority stats.  As we've proved above, if we want to increase the threat output from our shield slams, we need to get more shield block value and we need more strength.  Even for our fury boys, strength is important - it increases raw damage output.  It however has very little defensive utility.  
  
- Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking (mobs attack damage - your shield block value modulated by items).
+ Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking the hit (mobs attack damage - your shield block value modulated by items).
  
  ## *TL;DR - For those who just want the cliffs notes, not the entire deep dive*
  
@@ -189,7 +189,7 @@ As we can see here, there are some slight advantages from a mitgation standpoint
  - Deep Prot can stance dance, making it much easier to charge and be more mobile.  Some might argue this is exactly what a bear tank is for, but it's a clear benefit nonetheless.
  - Fury Prot is limited to having to save bloodrage to cast Intercept.  
  
-### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and I to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
+### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and Threat to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
  
  
 
