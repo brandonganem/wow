@@ -146,7 +146,7 @@ Now lets scroll back up to the sim (don't worry, I'll wait).  We can see that in
 In fairness to Deep Prot, I have neglected some positive varibles in the Deep prot tree as far as rage generation goes, and they are as follows:
 1. While both shield slam and bloodthirst are on a 6 second cooldown, shield slam does utilize 10 less rage every 6 seconds, meaning you have 2.5 rage per second more to spend on other abilities.
 2. Anger Management - this talent adds 1 rage every 3 seconds (0.33, repeating of course, rage per second)
-This means that Deep prot afford an additional 2.83 rage per second to use on abilities.  However, don't forget that Deep Prot is 181 TPS in the hole right now.  I cannot think of a single way you could make up for 181 TPS with 2.83 rage per second (but I'd encourage someone to try).  
+This means that Deep prot afford an additional 2.83 rage per second to use on abilities.  However, don't forget that Deep Prot is 295.34 TPS in the hole right now.  I cannot think of a single way you could make up for 295.34 TPS with 2.83 rage per second (but I'd encourage someone to try).  
 
 Essentially, Fights like Twin Emps represent the epitome of when a Deep Prot tank is useful.  When the tanks aren't able to utilize threat-gen gear for fear of going splat, it makes an intuitive level of sense that being efficent is king.  This math shows, that even while being more efficent, and having as close to a "home field advantage" as this build is gonna have throughout our current level of content, *Fury Prot still puts out better TPS numbers than Deep Prot*
 
