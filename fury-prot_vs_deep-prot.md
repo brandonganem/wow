@@ -170,7 +170,7 @@ As we can see here, there are some slight advantages from a mitgation standpoint
  
  Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking the hit (mobs attack damage - your shield block value modulated by items).
  
- ## *TL;DR - For those who just want the cliffs notes, not the entire deep dive*
+ ## TL:DR - For those who just want the cliffs notes, not the entire deep dive
  
  ### Threat Output
  - Even with the best circumstances (tested above on Twin Emps, the most friendly Deep Prot fight yet), Deep Prot fails to generate as much threat as Fury Prot.  
