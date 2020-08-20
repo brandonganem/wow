@@ -117,7 +117,7 @@ As we can see here, there are some slight advantages from a mitgation standpoint
 #### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and Threat to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
  
 
-#### APPENDIX: 'REAL-WORLD' DATA USED FOR VISUALIZATION ABOVE
+## APPENDIX: 'REAL-WORLD' DATA USED FOR VISUALIZATION ABOVE
 
 ### ThreatDream
 
