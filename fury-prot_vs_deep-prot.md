@@ -179,7 +179,7 @@ As we can see here, there are some slight advantages from a mitgation standpoint
  - Fury Prot TPS output is more a function of DPS, meaning when Fury Prot tanks are DPSing, they are DPSing harder than than Deep Prot, making them more useful for single mob encounters, and tightening kill times.  
  
  ### Mitigation
- - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more
+ - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more.  THe notion that Fury Prot is a "glass cannon" spec is notably untrue.  
  - Overall, Deep Prot can be expected to take advantage of 10 Defense points, 3-5% Parry depending on talent build, and 2-4% armor contribution from items
  - In both cases, the grand majority of mitigation comes from itemization and gear loadouts combined with consumables, which are available to both specs
  - There may be a benefit to the healers for having this extra mitigation, but it may not be outweighed by the faster kill times from having higher DPS tanks (though this is just bullshitting, and has no concrete evidence either way)
