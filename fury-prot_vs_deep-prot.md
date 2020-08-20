@@ -52,7 +52,72 @@ DPS: 464
 
 As we can see from the sim, the amount of damage done by Deep prot is considerably lower.  This surprises noone though, right?  We knew that.  The assumption we are running however is that with all this new threat being built into our deep prot ability (Shield slam, the only ability available soley to deep prot boiz), we rely less on the natural threat generation of damage output.  Now we have previously estabilished that with the exception of swapping shield slam for bloodthirst, the rotations for fury prot and deep prot are exactly the same.  The next logical question any discerning tank-to-be would ask is this: what's the difference in threat generation between a Bloodthirst and a Shield Slam? Buckle up boys, that's where we're going.
 
-## Some real world bloodthirst damage numbers for ThreatDream and Beatus (This is mostly TL;DR'd at bottom, scroll through if you want): 
+## Here is a graphical depiction of logged bloodthirst damage numbers for Threatdream and Beatus:
+![DW Deep Prot](/images/AQ_bloodthirst_tank_DPS.png)
+
+The solid and dashed horizontal lines indicate the simulated DPS values; note that they are very likely to be upper bounds, as they are computed pre-mitigation.
+
+Vek represents a worst-case scenario for Fury-Prot tanks.  We are being asked to wear all mitigation gear, at the expense of hit so that we are tankier than usual.  Still, I'm hitting 470 threat bloodthirsts (450 from damage value in the above table Plus the 20 threat for the self-heal, but if you examine the above chart, the bloodthirsts in threat gear are much more impressive, averaging from 600-800 on some bosses).  This is indeed lower than the expected 777 threat from shield slam.  It's important to note the subtle difference in empirically derived bloodthirst data from our logs that represents damage done to the boss, so it takes into account mitigated damage from the bosses armor values.  the 777 threat is before boss mitigation, and because no one runs deep prot, we don't have that data to show what mitigated damage looks like.  But even so lets pretend none of it is mitigated (absurd, I know, but Deep Prot needs all the help it can get, as you'll see soon), it would appear that there is a 300 threat/ 6 second (the cooldown of both these abilites) advantage to shield slam, yielding 50 increased threat per second over bloodthirst.
+
+Now lets scroll back up to the sim (don't worry, I'll wait).  We can see that in the same gear, a fury prot 1 hander is going to do 543 dps while a deep prot 1 hander is going to do 312 dps.  because threat output is based upon damage output TPS = 1.495(DPS), you can read this as 811.78 TPS vs 466.44 TPS.  Add in the 50 TPS increase for shield slam, and we have 811.78 vs 516.44 TPS, so Fury Prot is generating 295.34 TPS more in the SAME GEAR.  Shield slam is a more rage efficent source of threat yes, but already we are starting to see that the TPS is lagging behind. Why? Lets take inventory of the remaining variables that caused this to happen:
+
+- Flurry uptime.  Flurry is a fury ability that allows 30% increased attack speed every time you're crit.  more attack speed means more attacks.  More attacks means:
+         1. More opportunites to rage dump with heroic strike
+         2. more white hits to generate rage, see point 1.
+         3. more opportunites to get another crit, procc'ing another flurry
+         4. more opportunites to get Unbridled Wrath, 40% chance on hit to generate 1 rage point.
+- Enrage - this talent increases melee damage bonus by 25% for 12 hits or 12 seconds, whichever comes sooner after being crit.  this is hopefully pretty negated during Vek, because we are trying our hardest to push crits and crushes off the hit table using shield block, so we are under-utilizing Enrage on this particular encounter. But on other fights, this shits huge.  
+
+In fairness to Deep Prot, I have neglected some positive varibles in the Deep prot tree as far as rage generation goes, and they are as follows:
+1. While both shield slam and bloodthirst are on a 6 second cooldown, shield slam does utilize 10 less rage every 6 seconds, meaning you have 2.5 rage per second more to spend on other abilities.
+2. Anger Management - this talent adds 1 rage every 3 seconds (0.33, repeating of course, rage per second)
+This means that Deep prot afford an additional 2.83 rage per second to use on abilities.  However, don't forget that Deep Prot is 295.34 TPS in the hole right now.  I cannot think of a single way you could make up for 295.34 TPS with 2.83 rage per second (but I'd encourage someone to try).  
+
+Essentially, Fights like Twin Emps represent the epitome of when a Deep Prot tank is useful.  When the tanks aren't able to utilize threat-gen gear for fear of going splat, it makes an intuitive level of sense that being efficent is king.  This math shows, that even while being more efficent, and having as close to a "home field advantage" as this build is gonna have throughout our current level of content, *Fury Prot still puts out better TPS numbers than Deep Prot*
+
+
+So we talked about threat production, used real world examples that actually favor Deep Prot, and came to a conclusion, putting to bed the notion that Deep Prot outperforms Fury Prot from a threat standpoint.  Next point to cover is Mitigation.  
+
+| Modifier | Deep Prot | Fury Prot (threat) | Fury Prot (beatus) |
+| ------------- | -------------- | ----------------- | ---------------- |
+| Block | +5% shield block chance | +5% shield block chance | +5% shield block chance |
+| Armor | +10% armor contribution from items | +8% armor contribution | +6% armor contribution |
+| Parry chance | +5% Parry chance | 0% | +2% |
+| Defense | + 10 defense skill (0.4% dodge, 0.4% parry, 0.4% block) | +0 | +0 |
+           
+As we can see here, there are some slight advantages from a mitgation standpoint to being Deep Prot.  
+ - 2-4% armor contribution from items
+ - 3-5% increased parry chance
+ - 1.2% mitigation chance from the defense skill.  
+ That is significant in some situations, without a doubt.  However, when you compare these bonuses to the dodge, parry, block you get from itemization, it seems to be a much smaller piece of the puzzle, in my mind at least.  5 talent points in Anticipation is worth less than the +defense skill on Wrath Helm alone.  3 talent points is worth less than 1 ZG enchant.
+ 
+ Finally, I want to talk about enconomy of itemization, and by that I mean how do we get as much bang for our buck as possible when choosing priority stats.  As we've proved above, if we want to increase the threat output from our shield slams, we need to get more shield block value and we need more strength.  Even for our fury boys, strength is important - it increases raw damage output.  It however has very little defensive utility.  
+ 
+ Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking the hit (mobs attack damage - your shield block value modulated by items).
+ 
+ ## TL:DR - For those who just want the cliffs notes, not the entire deep dive
+ 
+ ### Threat Output
+ - Even with the best circumstances (tested above on Twin Emps, the most friendly Deep Prot fight yet), Deep Prot fails to generate as much threat as Fury Prot.  
+ - This even includes the rage efficency talents that make Deep Prot seem more intuitively viable, but amount to only 2.83 rage per second
+ - Fury Prot has room to continue to improve with itemization, while Deep Prot is reletively static in TPS output unless you're stacking STR like a madman, which means ignoring other great mitigation stats
+ - Fury Prot TPS output is more a function of DPS, meaning when Fury Prot tanks are DPSing, they are DPSing harder than than Deep Prot, making them more useful for single mob encounters, and tightening kill times.  
+ 
+ ### Mitigation
+ - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more.  THe notion that Fury Prot is a "glass cannon" spec is notably untrue.  
+ - Overall, Deep Prot can be expected to take advantage of 10 Defense points, 3-5% Parry depending on talent build, and 2-4% armor contribution from items
+ - In both cases, the grand majority of mitigation comes from itemization and gear loadouts combined with consumables, which are available to both specs
+ - There may be a benefit to the healers for having this extra mitigation, but it may not be outweighed by the faster kill times from having higher DPS tanks (though this is just bullshitting, and has no concrete evidence either way)
+ 
+ ### Flexibility
+ - Fury Prot makes a much better DPS OT spec.  They do soooo much more damage than deep prot (see above)
+ - Deep Prot can stance dance, making it much easier to charge and be more mobile.  Some might argue this is exactly what a bear tank is for, but it's a clear benefit nonetheless.
+ - Fury Prot is limited to having to save bloodrage to cast Intercept.  
+ 
+#### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and Threat to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
+ 
+
+#### APPENDIX: 'REAL-WORLD' DATA USED FOR VISUALIZATION ABOVE
 
 ### ThreatDream
 
@@ -130,66 +195,4 @@ As we can see from the sim, the amount of damage done by Deep prot is considerab
 |"Beatus-Netherwind"|"Vekniss Warrior"|1059|1459|
 |"Beatus-Netherwind"|"Vekniss Wasp"|999|999|
 |"Beatus-Netherwind"|Vem|"931.4"|1318|
-
-
-Vek represents a worst-case scenario for Fury-Prot tanks.  We are being asked to wear all mitigation gear, at the expense of hit so that we are tankier than usual.  Still, I'm hitting 470 threat bloodthirsts (450 from damage value in the above table Plus the 20 threat for the self-heal, but if you examine the above chart, the bloodthirsts in threat gear are much more impressive, averaging from 600-800 on some bosses).  This is indeed lower than the expected 777 threat from shield slam.  It's important to note the subtle difference in empirically derived bloodthirst data from our logs that represents damage done to the boss, so it takes into account mitigated damage from the bosses armor values.  the 777 threat is before boss mitigation, and because no one runs deep prot, we don't have that data to show what mitigated damage looks like.  But even so lets pretend none of it is mitigated (absurd, I know, but Deep Prot needs all the help it can get, as you'll see soon), it would appear that there is a 300 threat/ 6 second (the cooldown of both these abilites) advantage to shield slam, yielding 50 increased threat per second over bloodthirst.
-
-Now lets scroll back up to the sim (don't worry, I'll wait).  We can see that in the same gear, a fury prot 1 hander is going to do 543 dps while a deep prot 1 hander is going to do 312 dps.  because threat output is based upon damage output TPS = 1.495(DPS), you can read this as 811.78 TPS vs 466.44 TPS.  Add in the 50 TPS increase for shield slam, and we have 811.78 vs 516.44 TPS, so Fury Prot is generating 295.34 TPS more in the SAME GEAR.  Shield slam is a more rage efficent source of threat yes, but already we are starting to see that the TPS is lagging behind. Why? Lets take inventory of the remaining variables that caused this to happen:
-
-- Flurry uptime.  Flurry is a fury ability that allows 30% increased attack speed every time you're crit.  more attack speed means more attacks.  More attacks means:
-         1. More opportunites to rage dump with heroic strike
-         2. more white hits to generate rage, see point 1.
-         3. more opportunites to get another crit, procc'ing another flurry
-         4. more opportunites to get Unbridled Wrath, 40% chance on hit to generate 1 rage point.
-- Enrage - this talent increases melee damage bonus by 25% for 12 hits or 12 seconds, whichever comes sooner after being crit.  this is hopefully pretty negated during Vek, because we are trying our hardest to push crits and crushes off the hit table using shield block, so we are under-utilizing Enrage on this particular encounter. But on other fights, this shits huge.  
-
-In fairness to Deep Prot, I have neglected some positive varibles in the Deep prot tree as far as rage generation goes, and they are as follows:
-1. While both shield slam and bloodthirst are on a 6 second cooldown, shield slam does utilize 10 less rage every 6 seconds, meaning you have 2.5 rage per second more to spend on other abilities.
-2. Anger Management - this talent adds 1 rage every 3 seconds (0.33, repeating of course, rage per second)
-This means that Deep prot afford an additional 2.83 rage per second to use on abilities.  However, don't forget that Deep Prot is 295.34 TPS in the hole right now.  I cannot think of a single way you could make up for 295.34 TPS with 2.83 rage per second (but I'd encourage someone to try).  
-
-Essentially, Fights like Twin Emps represent the epitome of when a Deep Prot tank is useful.  When the tanks aren't able to utilize threat-gen gear for fear of going splat, it makes an intuitive level of sense that being efficent is king.  This math shows, that even while being more efficent, and having as close to a "home field advantage" as this build is gonna have throughout our current level of content, *Fury Prot still puts out better TPS numbers than Deep Prot*
-
-
-So we talked about threat production, used real world examples that actually favor Deep Prot, and came to a conclusion, putting to bed the notion that Deep Prot outperforms Fury Prot from a threat standpoint.  Next point to cover is Mitigation.  
-
-| Modifier | Deep Prot | Fury Prot (threat) | Fury Prot (beatus) |
-| ------------- | -------------- | ----------------- | ---------------- |
-| Block | +5% shield block chance | +5% shield block chance | +5% shield block chance |
-| Armor | +10% armor contribution from items | +8% armor contribution | +6% armor contribution |
-| Parry chance | +5% Parry chance | 0% | +2% |
-| Defense | + 10 defense skill (0.4% dodge, 0.4% parry, 0.4% block) | +0 | +0 |
-           
-As we can see here, there are some slight advantages from a mitgation standpoint to being Deep Prot.  
- - 2-4% armor contribution from items
- - 3-5% increased parry chance
- - 1.2% mitigation chance from the defense skill.  
- That is significant in some situations, without a doubt.  However, when you compare these bonuses to the dodge, parry, block you get from itemization, it seems to be a much smaller piece of the puzzle, in my mind at least.  5 talent points in Anticipation is worth less than the +defense skill on Wrath Helm alone.  3 talent points is worth less than 1 ZG enchant.
- 
- Finally, I want to talk about enconomy of itemization, and by that I mean how do we get as much bang for our buck as possible when choosing priority stats.  As we've proved above, if we want to increase the threat output from our shield slams, we need to get more shield block value and we need more strength.  Even for our fury boys, strength is important - it increases raw damage output.  It however has very little defensive utility.  
- 
- Agility on the other hand, is king for fury prot warriors.  Agility is the main driver of crit chance, which as we learned above, drives flurry, which is one of the main drivers of Fury Prot DPS/TPS output.  20 Agi = 1% crit.  20 agi also becomes 1% dodge, making it an exeptional mitigation stat.  a 1% dodge means a 1% chance to take absolutely no damage from a mob, making it vastly superior to block, and a little worse than parry, because in theory, a parry will reset your attack timer, allowing you to hit the mob again sooner.  A block will push a crit or a crush off the hit table, but you still end up taking the hit (mobs attack damage - your shield block value modulated by items).
- 
- ## TL:DR - For those who just want the cliffs notes, not the entire deep dive
- 
- ### Threat Output
- - Even with the best circumstances (tested above on Twin Emps, the most friendly Deep Prot fight yet), Deep Prot fails to generate as much threat as Fury Prot.  
- - This even includes the rage efficency talents that make Deep Prot seem more intuitively viable, but amount to only 2.83 rage per second
- - Fury Prot has room to continue to improve with itemization, while Deep Prot is reletively static in TPS output unless you're stacking STR like a madman, which means ignoring other great mitigation stats
- - Fury Prot TPS output is more a function of DPS, meaning when Fury Prot tanks are DPSing, they are DPSing harder than than Deep Prot, making them more useful for single mob encounters, and tightening kill times.  
- 
- ### Mitigation
- - Deep Prot and Fury prot share a lot of the same mitigation talents.  There's Mitigation talents inherent to both builds, but Deep prot does have more.  THe notion that Fury Prot is a "glass cannon" spec is notably untrue.  
- - Overall, Deep Prot can be expected to take advantage of 10 Defense points, 3-5% Parry depending on talent build, and 2-4% armor contribution from items
- - In both cases, the grand majority of mitigation comes from itemization and gear loadouts combined with consumables, which are available to both specs
- - There may be a benefit to the healers for having this extra mitigation, but it may not be outweighed by the faster kill times from having higher DPS tanks (though this is just bullshitting, and has no concrete evidence either way)
- 
- ### Flexibility
- - Fury Prot makes a much better DPS OT spec.  They do soooo much more damage than deep prot (see above)
- - Deep Prot can stance dance, making it much easier to charge and be more mobile.  Some might argue this is exactly what a bear tank is for, but it's a clear benefit nonetheless.
- - Fury Prot is limited to having to save bloodrage to cast Intercept.  
- 
-#### I hope this deep dive was useful to someone.  If anything, it allowed Beatus and Threat to add numbers and concrete evidence to what we feel we have already empirically determined is truth.  I forsee the overall benefits of Fury Prot spec for all Warrior tanks outweighing the benefits of Deep Prot at this time, and likely moving forward as well.  Threat problems only get worse with Deep Prot as content progresses, while the mitigation benefits don't really WoW me.  
- 
- 
 
