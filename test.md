@@ -1,6 +1,6 @@
 # The Last Word
 
-A _Equal-Parts_ cocktail.
+An _Equal-Parts_ cocktail.
 
 ## Ingredients
 
