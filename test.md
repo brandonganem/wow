@@ -17,3 +17,4 @@ _Garnish:_ A Marachino Cherry
 
 Combine all ingredients in equal parts into a shaker tin. Add ice, shake and double strain into a coupe glass.
 
+[^1]: test
